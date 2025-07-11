@@ -7,13 +7,19 @@ const LogoContainer = styled.div`
   gap: 0.5rem;
 `;
 const LogoImage = styled.img``;
+
+const LogoText = styled.p`
+  font-size: 2rem;
+  color: #fff;
+`;
+
 function Logo() {
   return (
     <LogoContainer>
       <LogoImage src={logo} alt="logo" />
-      <p>
+      <LogoText>
         <strong>Alura</strong>Books
-      </p>
+      </LogoText>
     </LogoContainer>
   );
 }

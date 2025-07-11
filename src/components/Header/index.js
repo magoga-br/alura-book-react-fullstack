@@ -4,7 +4,8 @@ import IconesHeader from "../IconesHeader";
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-  background-color: #e6e1e8;
+  background: transparent;
+  border-bottom: 1px solid #fff;
   display: flex;
   justify-content: center;
 `;
