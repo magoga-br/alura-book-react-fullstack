@@ -24,7 +24,7 @@ function OpcoesHeader() {
   return (
     <Opcoes>
       {textoOpcoes.map((opcao) => (
-        <Opcao>
+        <Opcao key={opcao}>
           <p>{opcao}</p>
         </Opcao>
       ))}

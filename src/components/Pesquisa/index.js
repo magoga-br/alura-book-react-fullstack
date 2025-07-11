@@ -24,7 +24,10 @@ function Pesquisa() {
     <PesquisaContainer>
       <Titulo>Já sabe por onde começar?</Titulo>
       <Subtitulo>Encontre seu livro em nossa estante</Subtitulo>
-      <Input type="text" placeholder="Escreva sua próxima leitura" />
+      <Input
+        placeholder="Escreva sua próxima leitura"
+        onBlur={() => console.log("fabricio")}
+      />
     </PesquisaContainer>
   );
 }
