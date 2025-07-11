@@ -1,11 +1,18 @@
-import "./App.css";
 import Header from "./components/Header";
+import styled from "styled-components";
+
+const AppContainer = styled.div`
+
+  background: linear-gradient(90deg, #002f52 35%, #326589 165%);
+  width: 100vw;
+  height: 100vh;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <Header />
-    </div>
+    </AppContainer>
   );
 }
 
