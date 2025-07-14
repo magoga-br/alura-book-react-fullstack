@@ -2,19 +2,18 @@ import styled from "styled-components";
 
 const Input = styled.input`
   background: transparent;
-  width: 200px;
-  padding: 16px 100px;
-  border: 2px solid #fff;
-  border-radius: 16px;
+  border-image: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+  border-image-slice: 1;
+  width: 300px;
+  padding: 16px;
   color: #fff;
   font-size: 1rem;
-  border-image: 
-  border-image-slice: 1;
   outline: none;
 
   &::placeholder {
     color: #fff;
     font-size: 1rem;
+    font-weight: 600;
   }
 `;
 

@@ -4,13 +4,12 @@ import styled from "styled-components";
 
 const IconesUl = styled.ul`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-self: end;
   gap: 2.5rem;
-  cursor: pointer;
 `;
 const Icone = styled.li`
   width: 1.5rem;
+  cursor: pointer;
 `;
 
 const icones = [perfil, sacola];

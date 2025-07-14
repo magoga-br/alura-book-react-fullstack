@@ -6,8 +6,10 @@ import styled from "styled-components";
 const HeaderContainer = styled.header`
   background: transparent;
   border-bottom: 1px solid #fff;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 24px 8rem;
 `;
 
 function Header() {
