@@ -6,9 +6,9 @@ import { livros } from "./dadosPesquisa";
 const PesquisaContainer = styled.section`
   color: #fff;
   text-align: center;
-  padding: 85px;
+  padding-top: 85px;
   width: 100%;
-  height: 270px;
+  height: 100%;
 `;
 const Titulo = styled.h2`
   color: #fff;
@@ -24,23 +24,20 @@ const ResultadoContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  gap: 25px;
+  margin: 30px 0 30px 0;
 `;
 const Resultado = styled.div`
-  border: 2px solid #fff;
-  padding: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   gap: 10px;
+  transition: all 0.3s ease;
 
   p {
     font-weight: bold;
   }
 
   &:hover {
+    transform: translateY(-3px);
     cursor: pointer;
   }
 `;

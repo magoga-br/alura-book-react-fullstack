@@ -16,6 +16,12 @@ const Opcao = styled.li`
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+  }
 `;
 
 const textoOpcoes = ["CATEGORIAS", "FAVORITOS", "MINHA ESTANTE"];

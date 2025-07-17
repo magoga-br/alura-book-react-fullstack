@@ -10,6 +10,12 @@ const IconesUl = styled.ul`
 const Icone = styled.li`
   width: 1.5rem;
   cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+  }
 `;
 
 const icones = [perfil, sacola];
