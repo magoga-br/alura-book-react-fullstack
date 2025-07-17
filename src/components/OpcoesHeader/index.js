@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 const Opcoes = styled.ul`
   display: flex;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const Opcao = styled.li`
@@ -11,6 +16,7 @@ const Opcao = styled.li`
   align-items: center;
   text-align: center;
   min-width: 120px;
+  width: 100%;
   height: 100%;
   padding: 0 5px;
   font-size: 16px;

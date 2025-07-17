@@ -9,11 +9,19 @@ const PesquisaContainer = styled.section`
   padding-top: 85px;
   width: 100%;
   height: 100%;
+
+  @media (max-width: 768px) {
+    padding: 40px 1rem;
+  }
 `;
 const Titulo = styled.h2`
   color: #fff;
   font-size: 36px;
   text-shadow: 0px 0px 20px #000000;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 const Subtitulo = styled.h3`
   font-size: 16px;
@@ -25,6 +33,8 @@ const ResultadoContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 30px 0 30px 0;
+  flex-wrap: wrap;
+  gap: 20px;
 `;
 const Resultado = styled.div`
   display: flex;

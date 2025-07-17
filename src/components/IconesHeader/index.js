@@ -6,6 +6,12 @@ const IconesUl = styled.ul`
   display: flex;
   justify-self: end;
   gap: 2.5rem;
+  width: 100%;
+  max-width: 90px;
+
+  @media (max-width: 768px) {
+    gap: 1.5rem;
+  }
 `;
 const Icone = styled.li`
   width: 1.5rem;

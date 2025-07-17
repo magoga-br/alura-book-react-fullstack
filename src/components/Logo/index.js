@@ -7,6 +7,7 @@ const LogoContainer = styled.div`
   gap: 0.5rem;
   justify-self: start;
   cursor: pointer;
+  width: 100%;
 `;
 const LogoImage = styled.img``;
 

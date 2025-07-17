@@ -15,9 +15,11 @@ const NovosLivrosContainer = styled.div`
   width: 100%;
   justify-content: center;
   cursor: pointer;
-  gap: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
 
   img {
+    max-width: 150px;
     transition: all 0.3s ease;
 
     &:hover {

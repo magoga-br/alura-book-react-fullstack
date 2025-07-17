@@ -5,9 +5,8 @@ const Card = styled.div`
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.07);
   border-radius: 16px;
   display: flex;
-  justify-content: justify;
-  align-items: justify;
-  text-align: justify;
+  justify-content: space-between;
+  align-items: center;
   padding: 24px;
   margin: 2rem auto;
   max-width: 600px;
@@ -22,6 +21,13 @@ const Card = styled.div`
 
   > div:first-child {
     flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    max-width: 90%;
+    gap: 20px;
   }
 `;
 
@@ -80,9 +86,9 @@ function CardRecomenda({ titulo, subtitulo, descricao, img }) {
         <Subtitulo>{subtitulo}</Subtitulo>
         <Descricao>{descricao}</Descricao>
       </div>
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div>
         <ImgLivro src={img} alt="imagem livro" />
-        <Botao>Saiba mais</Botao>
+        <Botao style={{ marginTop: '10px' }}>Saiba mais</Botao>
       </div>
     </Card>
   );
