@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/alura-book-react-fullstack/static/js/main.d3295045.js",
+    "main.js": "/alura-book-react-fullstack/static/js/main.8f31def8.js",
     "static/js/453.b9d96311.chunk.js": "/alura-book-react-fullstack/static/js/453.b9d96311.chunk.js",
     "static/media/livro.png": "/alura-book-react-fullstack/static/media/livro.08cebf2371097b2d91cd.png",
     "index.html": "/alura-book-react-fullstack/index.html",
     "static/media/sacola.svg": "/alura-book-react-fullstack/static/media/sacola.7bdd364dcf0024d312d6441a2466de5e.svg",
     "static/media/logo.svg": "/alura-book-react-fullstack/static/media/logo.9c54b187c810fdc3ecca29269446898f.svg",
     "static/media/perfil.svg": "/alura-book-react-fullstack/static/media/perfil.05c6e2e85819d4b394873bdb835ec53c.svg",
-    "main.d3295045.js.map": "/alura-book-react-fullstack/static/js/main.d3295045.js.map",
+    "main.8f31def8.js.map": "/alura-book-react-fullstack/static/js/main.8f31def8.js.map",
     "453.b9d96311.chunk.js.map": "/alura-book-react-fullstack/static/js/453.b9d96311.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d3295045.js"
+    "static/js/main.8f31def8.js"
   ]
 }
